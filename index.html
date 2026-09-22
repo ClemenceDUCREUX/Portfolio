@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio de Clémence Ducreux, étudiante en Master Cultures et Métiers du Web à Paris." />
+    <meta name="author" content="Clémence Ducreux" />
+    <title>Accueil | Portfolio de Clémence Ducreux</title>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="site-header__logo" href="index.html">Mon portfolio</a>
+        <nav aria-label="Navigation principale">
+          <ul class="nav">
+            <li><a class="nav__link" href="index.html" aria-current="page">Accueil</a></li>
+            <li><a class="nav__link" href="realisations.html">Réalisations</a></li>
+            <li><a class="nav__link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <img class="hero__photo" src="img/photo-profil.jpg" alt="Portrait de Clémence Ducreux" width="200" height="200" />
+          <div class="hero__text">
+            <h1 id="hero-title" class="hero__name">Clémence Ducreux</h1>
+            <p class="hero__job">Intitulé du poste visé</p>
+          </div>
+          <svg class="hero__wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <path d="M0,64 C240,128 480,128 720,80 C960,32 1200,16 1440,64 L1440,120 L0,120 Z" />
+          </svg>
+        </section>
+
+        <div class="content">
+          <section class="column" aria-labelledby="about-title">
+            <h2 id="about-title" class="section-title">À propos de moi</h2>
+            <p>
+              Étudiante en Master Cultures et Métiers du Web à Paris, je conçois des sites
+              clairs et agréables à utiliser. Phrase de présentation à personnaliser.
+            </p>
+            <ul class="bullet-list">
+              <li>Point fort n°1 à compléter</li>
+              <li>Point fort n°2 à compléter</li>
+              <li>Point fort n°3 à compléter</li>
+            </ul>
+
+            <h3 class="subsection-title">Compétences</h3>
+            <ul class="skills">
+              <li class="skill">
+                <span class="skill__name" id="skill-html">HTML</span>
+                <progress class="skill__bar" value="60" max="100" aria-labelledby="skill-html">60 %</progress>
+                <span class="skill__value">60 %</span>
+              </li>
+              <li class="skill">
+                <span class="skill__name" id="skill-css">CSS</span>
+                <progress class="skill__bar" value="50" max="100" aria-labelledby="skill-css">50 %</progress>
+                <span class="skill__value">50 %</span>
+              </li>
+              <li class="skill">
+                <span class="skill__name" id="skill-figma">Figma</span>
+                <progress class="skill__bar" value="40" max="100" aria-labelledby="skill-figma">40 %</progress>
+                <span class="skill__value">40 %</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="column column--right" aria-labelledby="path-title">
+            <h2 id="path-title" class="section-title">Mon parcours</h2>
+
+            <h3 class="subsection-title">Diplômes</h3>
+            <ul class="timeline">
+              <li class="timeline__item">
+                <p class="timeline__title">Master Cultures et Métiers du Web / 2025-2027</p>
+                <p>Nom de l'université, Paris</p>
+                <p class="timeline__desc">Description de la formation</p>
+              </li>
+              <li class="timeline__item">
+                <p class="timeline__title">Diplôme précédent / année</p>
+                <p>Établissement</p>
+                <p class="timeline__desc">Description de la formation</p>
+              </li>
+            </ul>
+
+            <h3 class="subsection-title">Expériences</h3>
+            <ul class="timeline">
+              <li class="timeline__item">
+                <p class="timeline__title">Poste en alternance / 2025-2027</p>
+                <p>Entreprise</p>
+                <p class="timeline__desc">Description du poste</p>
+              </li>
+            </ul>
+
+            <h3 class="subsection-title">Centres d'intérêt</h3>
+            <ul class="tags">
+              <li class="tag">Développement web</li>
+              <li class="tag">Design UX / UI</li>
+              <li class="tag">Centre d'intérêt</li>
+              <li class="tag">Centre d'intérêt</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__social">
+          <h2 class="site-footer__title">Retrouvez-moi</h2>
+          <ul class="social">
+            <li>
+              <a class="social__link" href="https://www.linkedin.com/in/votre-profil" target="_blank" rel="noopener noreferrer">
+                <img src="img/icon-linkedin.svg" alt="" width="20" height="20" />
+                <span>/ Clémence Ducreux<span class="visually-hidden"> sur LinkedIn (nouvel onglet)</span></span>
+              </a>
+            </li>
+            <li>
+              <a class="social__link" href="https://www.instagram.com/votre-compte" target="_blank" rel="noopener noreferrer">
+                <img src="img/icon-instagram.svg" alt="" width="20" height="20" />
+                <span>@votre-compte<span class="visually-hidden"> sur Instagram (nouvel onglet)</span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="site-footer__cta">
+          <a class="button" href="docs/cv-clemence-ducreux.pdf" download>Télécharger mon CV</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
